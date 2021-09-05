@@ -1,0 +1,18 @@
+@import "src/scss/global.scss";
+
+.siteList {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+
+  &.active {
+    background-color: $mainColor;
+    color: $textColor;
+
+  }
+}

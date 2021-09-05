@@ -1,0 +1,78 @@
+@import "src/scss/global.scss";
+.site {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+h1{
+  margin:20px;
+  font-size: 50px;
+  color:$textColor;
+  span{
+    font-size: 25px;
+  }
+}
+
+.siteUl {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  li {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &.active {
+      background-color: $mainColor;
+      color: $textColor;
+
+    }
+  }
+
+  .container2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    .item {
+      border-radius: 20px;
+      border: 1px solid darkgrey;
+      margin: 10px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+      color: $textColor;
+
+    }
+  }
+}
+  .kitchen1 {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+    .kitchen2 {
+      width: 400px;
+      height: 400px;
+      margin:10px;
+      border-radius: 5px;
+
+    }
+      .kitchen3 {
+        width: 400px;
+        height: 400px;
+        margin:10px;
+        border-radius: 5px;
+      }
